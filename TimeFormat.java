@@ -9,10 +9,8 @@ public class TimeFormat {
         } else {
             suffix = "PM";	
         }
-
-        if (hours == 0) {
-            hours = 12;	
-        } else if (hours > 12) {
+		
+		if (hours > 12) {
             hours = hours - 12;	
         }
 
