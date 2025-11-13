@@ -1,3 +1,5 @@
+/* Good Job, the code is clean, well structured and easy to follow */
+
 public class TimeFormat {
     public static void main(String[] args) {
         int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
